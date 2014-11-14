@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="PMAppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <!-- <item name="android:windowActionModeOverlay">true</item> -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

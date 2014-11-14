@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <group android:id="@+id/menu_general" >
+        <item
+            android:id="@+id/menu_back"
+            android:title="Back"
+            app:showAsAction="always|withText"/>
+        <item
+            android:id="@+id/menu_next"
+            android:title="Next"
+            app:showAsAction="always|withText"/>
+    </group>
+
+</menu>

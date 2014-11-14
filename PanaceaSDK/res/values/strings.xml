@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">PanaceaSDK</string>
+
+    <string name="all_subjects">All updates</string>
+    <string name="empty_subjects_list_text">No Messages</string>
+    
+    <string name="menu_delete">Delete</string>
+    <string name="menu_read">Mark as read</string>
+    
+    <string name="confirm_delete">Are you sure you want to delete selected message(s)?</string>
+    <string name="confirm_read">Are you sure you want to mark selected message(s) as read?</string>
+    
+    <string name="button_positive">Yes</string>
+    <string name="button_negative">Cancel</string>
+    
+</resources>

@@ -1,0 +1,9 @@
+com.panacea.sdk
+com.panacea.sdk.activity
+com.panacea.sdk.db
+com.panacea.sdk.exception
+com.panacea.sdk.fragment
+com.panacea.sdk.gcm
+com.panacea.sdk.model
+com.panacea.sdk.web
+com.panacea.sdk.widget

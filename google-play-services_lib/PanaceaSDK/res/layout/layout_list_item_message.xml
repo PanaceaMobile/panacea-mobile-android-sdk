@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.panacea.sdk.widget.PMMessageListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/selector_list_item"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <RelativeLayout
+        android:layout_width="16dp"
+        android:layout_height="match_parent" >
+
+        <View
+            android:id="@+id/inboxRead"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_circle_blue" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="8dp" >
+
+        <TextView
+            android:id="@+id/inboxSubject"
+            style="@style/TextHeading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/inboxAge"
+            android:text="Withdrawal" />
+
+        <TextView
+            android:id="@+id/inboxAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="2 minutes ago" />
+
+        <TextView
+            android:id="@+id/inboxMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/inboxSubject"
+            android:ellipsize="end"
+            android:gravity="bottom"
+            android:maxLines="2"
+            android:text="dsfjkh df ghdkshfdishg kdsgdhskfdjs bd jgh dsfh dshf sdgfhifgheiwu xkcnvld ds" />
+    </RelativeLayout>
+
+</com.panacea.sdk.widget.PMMessageListItem>

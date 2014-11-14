@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.panacea.sdk.widget.PMSubjectListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_list_item"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <View
+        android:id="@+id/colour"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_rounded_corners" />
+
+    <TextView
+        android:id="@+id/subject"
+        style="@style/TextHeading1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="All Updates" />
+
+    <TextView
+        android:id="@+id/numberOfMessages"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_circle_grey"
+        android:gravity="center"
+        android:text="1" />
+
+</com.panacea.sdk.widget.PMSubjectListItem>

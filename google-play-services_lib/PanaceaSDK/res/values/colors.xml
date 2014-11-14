@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_general">#000000</color>
+    
+    <!--CHAT BUBBLES-->
+    <color name="bg_chat_received">#F1C731</color>
+    <color name="bg_chat_sent">#000000</color>
+    <color name="text_chat_received">#000000</color>
+    <color name="text_chat_sent">#F1C731</color>
+    
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/loginEnterNumberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <com.panacea.sdk.widget.PMInstantAutoComplete
+                android:id="@+id/autocomplete_country"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="Your country" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="+"
+                    android:paddingLeft="8dp" />
+
+                <TextView
+                    android:id="@+id/mobileCountryCodeEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/mobileNumberEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:hint="Your mobile number"
+                    android:inputType="number"
+                    android:maxLength="9" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:text="Please enter your mobile number to receive push notifications" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loginVerifyNumberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/mobileNumberSentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/verificationCodeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Verification code"
+                android:inputType="number"
+                android:maxLength="5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:text="SMS sent. Please enter verification code received." />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

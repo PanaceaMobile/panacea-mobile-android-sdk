@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.panacea.sdk.widget.PMMessageDetailListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_list_item"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/messageAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lines="1"
+        android:textColor="@android:color/secondary_text_dark" />
+    
+    <TextView
+        android:id="@+id/messageSent"
+        style="@style/SentTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/messageReceived"
+        style="@style/ReceivedTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    
+
+</com.panacea.sdk.widget.PMMessageDetailListItem>

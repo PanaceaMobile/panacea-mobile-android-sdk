@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:shrinkColumns="1"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/list_item_height_settings" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Version" />
+
+                <TextView
+                    android:id="@+id/settings_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:text="v1.0" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@android:color/background_dark" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/list_item_height_settings" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Device Name" />
+
+                <TextView
+                    android:id="@+id/settings_given_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:text="Name" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@android:color/background_dark" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/list_item_height_settings" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Unique Device ID" />
+
+                <TextView
+                    android:id="@+id/settings_device_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:lines="3"
+                    android:singleLine="false"
+                    android:text="" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@android:color/background_dark" />
+
+            <TableRow
+                android:id="@+id/settings_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_settings_item"
+                android:clickable="true"
+                android:minHeight="@dimen/list_item_height_settings" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_span="2"
+                    android:gravity="center"
+                    android:text="Refresh all messages" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@android:color/background_dark" />
+
+            <TableRow
+                android:id="@+id/settings_undelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_settings_item"
+                android:clickable="true"
+                android:minHeight="@dimen/list_item_height_settings" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_span="2"
+                    android:gravity="center"
+                    android:text="Undelete all messages" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

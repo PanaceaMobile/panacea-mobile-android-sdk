@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="PMAppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="PMAppTheme" parent="PMAppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="ReceivedTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/bg_chat_bubble_left</item>
+        <item name="android:textColor">@color/text_chat_received</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:minWidth">50dp</item>
+    </style>
+    
+    <style name="SentTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/bg_chat_bubble_right</item>
+        <item name="android:textColor">@color/text_chat_sent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:minWidth">50dp</item>
+        
+    </style>
+    
+    <style name="TextHeading1" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/text_general</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextHeading2" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/text_general</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
